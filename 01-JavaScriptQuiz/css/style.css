@@ -1,0 +1,74 @@
+body {
+    background: #f06226;
+    color: #fff;
+}
+
+.container {
+    background: #199fdb;
+    margin: 1.4rem auto;
+    overflow: auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 1rem;
+    
+}
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    margin-top: 0.4rem;
+    padding: 0;
+    color: #000;
+}
+
+#results h3 {
+    background: #EC971F;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#result span {
+    color: #000;
+    font-weight: bold;
+}
+
+section {
+   // min-height: 400px;
+}
+
+section h3 {
+    margin: 2rem 0 1rem 0;
+    font-weight: 100;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    border-top: 1px dashed #fff;
+}
+
+footer p {
+    margin: 1rem 0 0 0;
+}
+
+.but {
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 920px) {
+    .container {
+        width: 60%;
+    }   
+}
