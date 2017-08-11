@@ -47,6 +47,7 @@ $(document).ready(function(){
     // to prev slide
     function prevSlide(){
         $(".active").removeClass("active").addClass("oldActive");
+        
         if($(".oldActive").is(":first-child")){
             $(".slide").last().addClass("active");
         } else {
